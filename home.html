@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>home</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        text-align: center;
+        font-size: 50px;
+        background-color: azure;
+        padding: 40px 0;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: row;
+      }
+
+      nav {
+        padding: 30px;
+
+        height: 600px;
+      }
+      nav ul {
+        list-style: none;
+        box-shadow: 10px 10px 30px;
+      }
+      nav ul li {
+        color: black;
+        font-size: 25px;
+      }
+      section {
+        width: 80%;
+      }
+      section h1 {
+        text-align: center;
+        padding: 15px;
+        font-size: 30px;
+      }
+
+      .imgBox {
+        display: flex;
+        flex-direction: row;
+      }
+      .imgBox img {
+        width: 100%;
+        padding: 25px;
+        border: 1px solid gray;
+      }
+      .imgBox img:hover {
+        padding: 0;
+      }
+
+      #announTitle {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+      }
+
+      #announTitle div {
+        height: 4px;
+        width: 88%;
+        background-color: black;
+      }
+
+      #announTitle h2 {
+        font-size: 35px;
+        padding: 20px;
+      }
+
+      #announcements {
+        padding: 20px;
+      }
+
+      #announcements ul {
+        list-style: none;
+      }
+
+      #announcements a:active {
+        font-size: 30px;
+      }
+
+      #announcements li h4 {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid gray;
+      }
+
+      ul li {
+        padding: 15px;
+        font-size: 24px;
+      }
+      ul a {
+        text-decoration: none;
+      }
+
+      footer {
+        padding: 20px;
+        background-color: black;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+      }
+
+      footer h2 {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <header>Eskisehir Technıcal University</header>
+
+    <div class="container">
+      <nav>
+        <ul>
+          <a href=""
+            ><li style="font-size: 32px; font-weight: bold">HOME</li></a
+          >
+          <a href="unıversity.html"><li>UNIVERSITY</li> </a>
+          <a href="academics.html"><li>ACADEMICS</li> </a>
+          <a href=""><li>STUDENT</li> </a>
+          <a href="studentLogin.html"><li>STUDENT LOGIN</li> </a>
+          <a href="documents.html"><li>DOCUMENTS</li> </a>
+          <a href="campusLife.html"><li>CAMPUS LIFE</li> </a>
+          <a href="research.html"><li>RESEARCH</li> </a>
+        </ul>
+      </nav>
+
+      <section>
+        <h1>HOME</h1>
+        <div class="imgBox">
+          <img src="school_logo.jfif" alt="" />
+          <img src="school_img.jfif" alt="" />
+          <img src="school_img2.jfif" alt="" />
+        </div>
+
+        <div class="announcement">
+          <div id="announTitle">
+            <h2>Announcements</h2>
+            <div></div>
+          </div>
+          <div id="announcements">
+            <ul>
+              <li>
+                <a
+                  href="https://ceng.eskisehir.edu.tr/tr/Duyuru/Detay/softtech-yetenek-kusagi-2022"
+                  ><h4>
+                    Softtech - Yetenek Kusağı 2022
+                    <span>4.04.2022 12:32:34</span>
+                  </h4>
+                </a>
+
+                İş hayatına Softtech’le başlamaya ne dersin? Bu yolculukta
+                öğrendiklerinden daha fazlasını öğrenebilir, kendini
+                geliştirebilirsin.
+              </li>
+              <li>
+                <a
+                  href="https://ceng.eskisehir.edu.tr/tr/Duyuru/Detay/temel-is-sagligi-ve-guvenligi-egitimi"
+                >
+                  <h4>
+                    Temel İş Sağlığı ve Güvenliği Eğitimi
+                    <span>6.04.2022 09:31:24</span>
+                  </h4>
+                </a>
+
+                Yüksek Lisans ve Doktora öğrencilerimizin dikkatine!
+                Üniversitemiz İSGB Sorumlusu B Sınıfı İş Güvenliği Uzmanı Yük.
+                Müh. Elif KIRLI tarafından, Lisansüstü Eğitim Enstitüsünde
+                öğrencisi bulunan birimlerdeki Yüksek Lisans ve Doktora
+                öğrencilerimize aşağıda belirtilen programlara göre “zoom”
+                üzerinden; 6331 sayılı Kanun, Çalışanların İş Sağlığı ve
+                Güvenliği Eğitimlerinin Usul ve Esasları Hakkında Yönetmelik
+                kapsamında Fakülte, Enstitü ve Yüksekokul ABD/Anasanat dallarına
+                göre belirlenen tarih ve 13:30-16:30 saatleri arası çevrimiçi
+                Temel İSG Eğitimi verilmesi planlanmaktadır.
+              </li>
+              <li>
+                <a
+                  href="https://ceng.eskisehir.edu.tr/tr/Duyuru/Detay/2021-2022-spring-semester-faculty-common-code-courses-2nd-midterm-exams"
+                >
+                  <h4>
+                    2021-2022 SPRING SEMESTER FACULTY COMMON CODE COURSES 2nd
+                    MIDTERM EXAMS<span>31.03.2022 05:43:33</span>
+                  </h4></a
+                >
+
+                2021-2022 Spring Semester faculty common coded courses 2nd
+                Midterm Exam program is attached. You can submit your objection
+                to the draft program to the address of
+                emrahdemir@eskisehir.edu.tr, on Tuesday, April 5, 2022, until
+                12:00
+              </li>
+              <li>
+                <a
+                  href="https://ceng.eskisehir.edu.tr/tr/Duyuru/Detay/2021-2022-spring-semester-1st-midterm-schedule-final"
+                >
+                  <h4>
+                    2021-2022 SPRING SEMESTER 1st MIDTERM SCHEDULE – FINAL
+                    <span> 22.03.2022 11:50:57</span>
+                  </h4>
+                </a>
+                The schedule of the 2021-2022 SPRING SEMESTER 1st MIDTERM EXAM
+                program to be held between 4-16 April 2022 is attached. Update:
+                The exam for the RUS256 Russian II course opened in the Civil
+                Engineering Department this semester has been added to the
+                program.
+              </li>
+              <li>
+                <a
+                  href="https://ceng.eskisehir.edu.tr/tr/Duyuru/Detay/thy-kariyer"
+                >
+                  <h4>THY Kariyer <span>21.03.2022 14:10:30</span></h4>
+                </a>
+                Take-Off Jr. programı ile değerlendirme süreçlerine katılan ve
+                süreçleri başarıyla tamamlayan yetenekli ve dinamik
+                arkadaşlarımız tam zamanlı çalışma düzeniyle büyük ailemizin bir
+                üyesi oluyor.
+              </li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer><h2>Copyright @2022 FIRATTEKİN</h2></footer>
+  </body>
+</html>
